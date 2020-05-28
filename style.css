@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,h3 {
+	font-weight: normal;
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	position: fixed;
+	z-index: 10;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-left img {
+	width: 124px;
+	margin: 20px 0;
+}
+
+.header-right{
+	margin: 0 25px;
+	background-color: rgba(255, 255, 255, 0.3);
+	float: right;
+}
+
+.header-right a {
+  line-height: 33px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.top {
+	background-image: url(https://prog-8.com/images/html/advanced/top.png);
+	background-size: cover;
+	padding: 180px 0 100px;
+	text-align: center;
+}
+
+.top h1,p {
+	color: #fff;
+}
+
+.top h1 {
+	letter-spacing: 4px;
+	font-size:45px;
+}
+
+.top p {
+	font-size:16px;
+}
+
+.newbtn {
+	background-color: #239b76;
+}
+
+.facebook {
+	background-color: #3b5998;
+	margin-right: 10px;
+}
+
+.twitter {
+	background-color: #55acee;
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px 24px;
+	border-radius: 4px;
+	opacity: 0.8;
+}
+
+.btn: hover{
+  opacity: 1;
+}
+.lesson-title {
+	text-align: center;
+	color: #5f5d60;
+}
+
+.lesson {
+	padding-top:10px;
+	background-color: #f7f7f7;
+}
+
+.lesson-group {
+	width: 25%;
+	float: left;
+}
+
+.lesson-group p {
+	color: #b3aeb5;
+}
+
+.icon {
+	position: relative;
+	text-align: center;
+}
+
+
+.icon p {
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	color: #fff !important;
+}
+
+.icon-text{
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.text{
+	text-align: center;
+	color: #5f5d60;
+}
+
+.developmentbtn {
+	border-bottom: 1px solid #eee;
+}
+
+.footer {
+	margin-top: 30px;
+}
+
+.footer p {
+	color: #b3aeb5;
+	font-size: 12px;
+}
+
+.footer img {
+	width: 125px;
+}
