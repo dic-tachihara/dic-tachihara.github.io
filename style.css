@@ -92,13 +92,14 @@ header {
 .btn: hover{
   opacity: 1;
 }
+
 .lesson-title {
 	text-align: center;
 	color: #5f5d60;
 }
 
 .lesson {
-	padding-top:10px;
+	padding:10px 0 420px 0;
 	background-color: #f7f7f7;
 }
 
@@ -121,15 +122,20 @@ header {
 	position: absolute;
 	top: 90px;
 	width: 100%;
-	color: #fff !important;
+	color: #fff;
+	text-align: center;
+	
 }
 
 .icon-text{
+	width: 80%;
 	font-size: 12px;
 	margin-top: 20px;
 }
 
 .text{
+	padding-top: 60px;
+    padding-bottom: 30px;
 	text-align: center;
 	color: #5f5d60;
 }
