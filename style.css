@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -22,13 +26,12 @@ header {
 	z-index: 10;
 }
 
-.header{
-	width: 1170px;
-	padding: 0 15px;
+.header {
+	width: 1140px;
 	margin: 0 auto;
 }
 
-.header-left{
+.header-left {
 	float: left;
 }
 
@@ -37,32 +40,34 @@ header {
 	margin: 20px 0;
 }
 
-.header-right{
-	background-color: rgba(255, 255, 255, 0.3);
-	float: right;
+.header-right {
+  float: right;
+  margin-right: -25px;
 }
 
 .header-right a {
-  line-height: 33px;
+  line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: #fff;
   display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 
 .top {
 	background-image: url(https://prog-8.com/images/html/advanced/top.png);
 	background-size: cover;
-	padding: 180px 0 100px;
+	padding: 180px 0 120px;
 	text-align: center;
 }
 
 .top-element{
-	width: 1170px;
+	width: 1140px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -71,28 +76,35 @@ header {
 	color: #fff;
 }
 
+.top h1 {
+	opacity: 0.7;
+}
+
+.top p {
+	opacity: 0.7;
+}
+
 .midasi h1 {
 	margin: 30.15px 0 30.15px;
-	letter-spacing: 4px;
-	font-size:45px;
+	letter-spacing: 5px;
+	font-size: 45px;
 }
 
 .midasi p {
-	font-size:16px;
+	font-size: 16px;
 	margin: 16px 0 16px;
-}
-
-.midasi h1,p {
-	color:  rgba(255,255,255,0.7);
 }
 
 .top-element p {
 	margin: 0;
-	padding: 8px 24px;
 }
 
 .newbtn {
 	background-color: #239b76;
+}
+
+.fa{
+	margin-right: 5px;
 }
 
 .facebook {
@@ -105,24 +117,34 @@ header {
 }
 
 .btn {
+	color: #fff;
 	display: inline-block;
 	border-radius: 4px;
+	padding: 8px 24px;
+	opacity: 0.8;
 }
 
-.btn: hover{
-  opacity: 1;
-}
-
-.lesson-text {
-	padding: 60px 0 30px;
-	text-align: center;
-	color: #5f5d60;
+.btn:hover {
+	opacity: 1;
 }
 
 .lesson {
-	height: 500px;
-	padding-bottom: 80px;
+	height: 620px;
 	background-color: #f7f7f7;
+	margin: 0 auto;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+.lesson-width{
+	width: 1140px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.lesson-text {
+	padding: 80px 0 50px;
+	color: #5f5d60;
 }
 
 .lesson-group {
@@ -145,31 +167,53 @@ header {
 	top: 90px;
 	width: 100%;
 	color: #fff;
-	text-align: center;
-	
 }
 
-.icon-text{
+.icon-text {
 	width: 80%;
-	font-size: 12px;
-	margin-top: 20px;
+	font-size: 13px;
 	display: inline-block;
 }
 
-.text{
-	padding-top: 60px;
-    padding-bottom: 30px;
+.icon-text p {
+	margin: 15px 0 13px;
+}
+
+.clear {
+	clear: left;
+}
+
+.container {
 	text-align: center;
+	padding: 0 15px 80px;
+	border-bottom: 1px solid #eee;
+}
+
+.text{
+	padding: 80px 0 50px;
 	color: #5f5d60;
 }
 
 .developmentbtn {
-	border-bottom: 1px solid #eee;
+	padding: 15px 40px;
+	background-color: #5dca88;
+	box-shadow: 0 7px #1a7940;
+	cursor: pointer;
+}
+
+.developmentbtn p {
+	margin: 0;
+}
+
+.developmentbtn:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
 }
 
 .footer {
 	width: 1170px;
-	padding: 30px 15px 0;
+	padding: 30px 15px 20px;
 	margin: 0 auto;
 }
 
