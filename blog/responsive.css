@@ -306,6 +306,8 @@ strong {
 	
 	.site {
 	padding-top: 45px;
+	width: 100%;
+	margin: 0 auto;
 }
 	
 	.site-link {
@@ -314,6 +316,3 @@ strong {
 }
 	
 }
-
-
-@media all and (max-width: 980px) {
