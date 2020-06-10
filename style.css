@@ -376,7 +376,7 @@ input {
 }
 
 .search-field {
-		background: url("img/search.png") 5px center no-repeat;
+		background: url("search.png") 5px center no-repeat;
 		display: inline-block;
 		background-size: 24px 24px;
 		border: none;
