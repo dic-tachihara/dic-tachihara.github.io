@@ -197,6 +197,7 @@ input {
 	height: 500px;
 	padding: 70px 0 35px;
 	display: block;
+	margin: 0 auto;
 }
 
 .title {
