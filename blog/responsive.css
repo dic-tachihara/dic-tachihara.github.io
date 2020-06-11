@@ -175,6 +175,7 @@ body{
 		margin: 0;
 		width: 100%;
 		overflow-wrap:break-word;
+		overflow-x: hidden;
 	}
 	
 	h2{
@@ -313,6 +314,7 @@ strong {
 	
 	.site-link {
 	font-size: 13.152px;
+	width: 100%;
 	
 }
 	
