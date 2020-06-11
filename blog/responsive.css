@@ -199,7 +199,7 @@ strong {
   float: right;
   position: fixed;
   top: 20px;
-  right: 2px;
+  left: 710px;
   z-index: 10px;
   cursor: pointer;
 }
