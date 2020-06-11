@@ -175,7 +175,6 @@
 body{
 		margin: 0;
 		width: 100%;
-		overflow-wrap:break-word;
 		box-sizing: border-box;
 	}
 	
@@ -199,7 +198,7 @@ strong {
 	margin: 45px 20px 45px;
 }
 	
-.body-center{
+.body-center {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -212,7 +211,7 @@ strong {
 	font-size: 15px;
 }
 	
-	.menu-div{
+	.menu-div {
     display:none;
   }
 	
@@ -235,7 +234,6 @@ strong {
 	.home-text{
 	font-size: 23px;
 	width: 100%;
-	word-wrap: break-word;
 	margin: 0 auto 70px;
 	}
 	
@@ -246,7 +244,6 @@ strong {
 	
 	.article p {
 	width: 100%;
-	word-wrap: break-word;
 	}
 	
 	.day{
