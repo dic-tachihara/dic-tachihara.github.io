@@ -174,7 +174,7 @@ body{
 		margin: 0;
 		width: 100%;
 		overflow-wrap:break-word;
-		overflow: auto !important;
+		overflow: hidden!important;
 		box-sizing : border-box;
 	}
 	
