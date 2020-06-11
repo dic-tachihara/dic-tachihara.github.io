@@ -194,14 +194,6 @@ strong {
 	
 .hamburger-box {
   display:block;
-  width: 30.06px;
-  height: 60px;
-  float: right;
-  position: fixed;
-  top: 20px;
-  left: 710px;
-  z-index: 10px;
-  cursor: pointer;
 }
 	
 .body-margin {
