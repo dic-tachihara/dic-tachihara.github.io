@@ -6,7 +6,6 @@
 	body{
 		width: 100%;
 		margin: 0;
-		box-sizing: border-box;
 	}	
 	
 .body-margin {
@@ -134,7 +133,6 @@
 }
 	
 .footer-4-search{
-	width: 100%;
 	float: left;
 }
 	
@@ -174,7 +172,7 @@
 	
 body{
 		margin: 0;
-		width: 100%;
+		overflow-wrap:break-word;
 		box-sizing: border-box;
 	}
 	
@@ -198,8 +196,7 @@ strong {
 	margin: 45px 20px 45px;
 }
 	
-.body-center {
-	width: 100%;
+.body-center{
 	margin: 0 auto;
 }
 	
@@ -211,17 +208,15 @@ strong {
 	font-size: 15px;
 }
 	
-	.menu-div {
+	.menu-div{
     display:none;
   }
 	
 	.main {
-	width: 100%;
 	margin: 0 auto;
 }
 
 	.main-img {
-		width: 100%;
 		margin: 0 auto;
 	}
 	
@@ -233,17 +228,16 @@ strong {
 
 	.home-text{
 	font-size: 23px;
-	width: 100%;
+	word-wrap: break-word;
 	margin: 0 auto 70px;
 	}
 	
 .article {
-	width: 100%;
 	margin: 0 auto 60px;
 }
 	
 	.article p {
-	width: 100%;
+	word-wrap: break-word;
 	}
 	
 	.day{
@@ -253,7 +247,6 @@ strong {
 	
 	.text {
 	font-size: 14.07px;
-	width: 100%;
 	
 }
 	
@@ -270,16 +263,13 @@ strong {
 	}
 	
 .footer {
-	width: 100%;
 	margin: 0 auto;
 }
 	
 	.profile-text{
-		width: 100%;
 	}
 	
 	.footer-1 {
-		width: 100%;
 	}
 	
 	.footer-1 p {
@@ -287,7 +277,6 @@ strong {
 }
 
 	.footer-2 {
-		width: 100%;
 	}
 	
 	.footer-3 p {
@@ -306,7 +295,6 @@ strong {
 	
 	.site {
 	padding-top: 45px;
-	width: 100%;
 	margin: 0 auto;
 }
 	
