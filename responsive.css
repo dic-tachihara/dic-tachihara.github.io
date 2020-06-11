@@ -4,7 +4,7 @@
 
 @media all and (max-width: 980px) {
 	body{
-		width: 100%;
+		width: 100vw;
 		margin: 0;
 	}	
 	
@@ -173,7 +173,7 @@
 	
 body{
 		margin: 0;
-		width: 100%;
+		width: 100vw;
 		overflow-wrap:break-word;
 	}
 	
