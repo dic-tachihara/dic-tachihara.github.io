@@ -174,6 +174,7 @@ body{
 		margin: 0;
 		overflow-wrap:break-word;
 		box-sizing: border-box;
+		width: 100%;
 	}
 	
 	h2{
@@ -220,7 +221,7 @@ strong {
 		width: 100%;
 		height: auto;
 		padding:40px 0 20px;
-		margin: 0 auto;
+		margin-left:5px;
 	}
 
 	.home-text{
