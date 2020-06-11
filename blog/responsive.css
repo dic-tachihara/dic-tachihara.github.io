@@ -217,13 +217,14 @@ strong {
 }
 
 	.main-img {
-		margin: 0 auto;
+		
 	}
 	
 	.main-img img {
 		width: 100%;
 		height: auto;
 		padding:40px 0 20px;
+		margin: 0 auto;
 	}
 
 	.home-text{
