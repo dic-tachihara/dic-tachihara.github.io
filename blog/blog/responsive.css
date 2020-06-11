@@ -48,8 +48,8 @@
 	bottom: 0;
 	display: inline-block;
 	position: absolute;
-	top: 26%;
-	right: 12%;
+	top: 165px;
+	right: 130px;
 }
 	
 .main {
@@ -159,7 +159,7 @@
 }
 	
 .site-link {
-	width: 700px;
+	width: 100%;
 	text-align: left;
 	float: none;
 	margin-top: 50px;
@@ -169,13 +169,12 @@
 	
 }
 
-@media all and (max-width: 782px) {
+@media all and (max-width: 785px) {
 	
 body{
 		margin: 0;
 		width: 100%;
 		overflow-wrap:break-word;
-		overflow-x: hidden;
 	}
 	
 	h2{
@@ -188,10 +187,12 @@ strong {
 	
 .main-menu{
 		display: block;
+	width:100%;
 	}
 	
-.hamburger-box{
-	display:block;		
+.hamburger-box {
+  display:block;
+	
 }
 	
 .body-margin {
@@ -314,6 +315,7 @@ strong {
 	
 	.site-link {
 	font-size: 13.152px;
+	width: 300px;
 	
 }
 	
