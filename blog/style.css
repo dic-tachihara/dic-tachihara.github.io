@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	overflow-wrap: break-word;
-	overflow-x: hidden !important;
+	overflow: auto !important;
 }
 
 a {
