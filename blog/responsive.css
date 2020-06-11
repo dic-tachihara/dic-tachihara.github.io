@@ -175,7 +175,6 @@ body{
 		margin: 0;
 		width: 100%;
 		overflow-wrap:break-word;
-		overflow-x: hidden;
 	}
 	
 	h2{
@@ -188,8 +187,6 @@ strong {
 	
 .main-menu{
 		display: block;
-	    max-width: 785px;
-	
 	}
 	
 .hamburger-box {
