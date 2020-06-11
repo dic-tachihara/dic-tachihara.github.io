@@ -4,7 +4,10 @@
 
 @media all and (max-width: 980px) {
 	body{
+		width: 100%;
 		margin: 0;
+		overflow: hidden!important;
+		box-sizing : border-box;
 	}	
 	
 .body-margin {
