@@ -46,7 +46,6 @@ input {
 	left: 0;
 	z-index: 8;
 	display: none;
-	text-size-adjust:100%;
 }
 
 .fx1 {
@@ -356,7 +355,7 @@ input {
  margin-top: 1px;
  padding: 10px;
  width: 100%;
- height: 1em;
+ height: 100%;
  transition:all .5s ease-out;
  background-color: #fff;
  border: 1px solid #e6e6e6;
@@ -375,8 +374,8 @@ input {
 		bottom: 0;
 		display: inline-block;
 		position: absolute;
-		top: 15%;
-		right: 12%;
+		top: 100px;
+		right: 80px;
 }
 
 .search-field {

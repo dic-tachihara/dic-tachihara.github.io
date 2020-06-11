@@ -48,8 +48,8 @@
 	bottom: 0;
 	display: inline-block;
 	position: absolute;
-	top: 26%;
-	right: 12%;
+	top: 165px;
+	right: 130px;
 }
 	
 .main {
@@ -175,7 +175,6 @@ body{
 		margin: 0;
 		width: 100%;
 		overflow-wrap:break-word;
-		overflow-x: hidden;
 	}
 	
 	h2{
@@ -188,12 +187,10 @@ strong {
 	
 .main-menu{
 		display: block;
-	    max-width: 785px;
-	
 	}
 	
-.hamburger-box{
-	display:block;		
+.hamburger-box {
+  display:block;
 }
 	
 .body-margin {
