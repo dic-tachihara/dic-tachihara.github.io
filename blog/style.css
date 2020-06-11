@@ -53,7 +53,6 @@ input {
 }
 
 .fx2 {
-	width:100%;
     height:100%;
     color:white;
     padding:3px 10px;
@@ -62,7 +61,6 @@ input {
 }
 
 .appear {
-	width: 100%;
 	height: 100%;
 	background: rgba(255,255,255,0.9);
 	text-align: center;
@@ -75,7 +73,6 @@ input {
 }
 
 .appear ul {
-	width: 100%;
 	height: 100%;
 	margin: auto;
 	padding: 0;
@@ -314,7 +311,6 @@ input {
  display: table;
  margin-top: 1px;
  padding: 14px 32px;
- width: 100%;
  color: #444444;
  text-decoration: none;
  text-align: left;
@@ -354,7 +350,6 @@ input {
  display: table;
  margin-top: 1px;
  padding: 10px;
- width: 100%;
  height: 100%;
  transition:all .5s ease-out;
  background-color: #fff;
@@ -396,7 +391,6 @@ input {
 		background-color: #fff;
 		border: solid 1px #e6e6e6;
 		cursor: text;
-		max-width: 100%;
 		width: 240px;
 }
 
@@ -521,7 +515,6 @@ input {
 }
 
 .footer-top {
-	width: 100%;
 }
 
 .footer-1{
