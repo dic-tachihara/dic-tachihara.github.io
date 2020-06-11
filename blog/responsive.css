@@ -188,6 +188,8 @@ strong {
 	
 .main-menu{
 		display: block;
+	    max-width: 785px;
+	
 	}
 	
 .hamburger-box{
@@ -315,6 +317,7 @@ strong {
 	.site-link {
 	font-size: 13.152px;
 	width: 100%;
+		margin: 0 auto;
 	
 }
 	
