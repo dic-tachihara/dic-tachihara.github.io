@@ -2,8 +2,8 @@
 /* CSS Document */
 body {
 	margin: 0;
-	overflow-wrap:break-word;
-	overflow-x: hidden;
+	overflow-wrap: break-word;
+	overflow-x: hidden !important;
 }
 
 a {
