@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    width: 100vw;
+    width: 100%;
 	margin: 0;
 	overflow-wrap: break-word;
 	box-sizing : border-box;
