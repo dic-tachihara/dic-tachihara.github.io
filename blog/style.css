@@ -1,9 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    width: 100%;
 	margin: 0;
-	overflow-wrap: break-word;
 	overflow-x: hidden;
 	box-sizing: border-box;
 }
@@ -178,16 +176,7 @@ input {
     transform: translate3d(0, -20px, 0) rotate(-90deg);
 }
 
-.body-margin {
-	margin: 60px 45px 60px;
-}
-
 .body-center{
-	width: 1035px;
-	margin: 0 auto;
-}
-
-.main {
 	width: 1035px;
 	margin: 0 auto;
 }
@@ -197,7 +186,6 @@ input {
 	height: 500px;
 	padding: 70px 0 35px;
 	display: block;
-	margin: 0 auto;
 }
 
 .title {
@@ -405,11 +393,6 @@ input {
 	margin: 0;
 }
 
-.article {
-	width: 1035px;
-	margin: 0 auto;
-}
-
 .span {
 	margin-bottom: 8px;
 }
@@ -453,7 +436,6 @@ input {
 }
 
 .navs {
-	width: 700px;
 	font-size: 16.884px;
 	margin: 0  0 0 auto;
 	margin-bottom: 85px;
@@ -504,8 +486,6 @@ input {
 }
 
 .footer{
-	width: 1035px;
-	margin: 0 auto;
 	padding-top: 75px;
 	border-top: 1px solid #e6e6e6;
 }
@@ -638,8 +618,6 @@ input {
 }
 
 .site {
-	width: 1035px;
-	margin: 0 auto;
 	border-top: 1px solid #e6e6e6;
 	padding-top: 60px;
 }
