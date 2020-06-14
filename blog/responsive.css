@@ -155,7 +155,7 @@ body {
 @media all and (max-width: 785px) {
 	
 	body {
-		margin: 20px 45px 20px;
+		margin:0;
 	}
 	
 	h2{
@@ -170,6 +170,11 @@ strong {
 	width: 100%;
 	margin: 0 auto;
 }
+
+.body-center-r {
+	width: 90%;
+	margin: 0 auto;
+}
 	
 .main-menu{
 	display: block;
@@ -180,7 +185,7 @@ strong {
 }
 	
 	.title {
-			padding-left: 1.5%;
+			padding-left: 5%;
 	}
 	
 	.title h1 {
