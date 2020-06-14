@@ -51,7 +51,6 @@ input {
 }
 
 .fx2 {
-    height:100%;
     color:white;
     padding:3px 10px;
     font-weight:bold;
@@ -59,7 +58,6 @@ input {
 }
 
 .appear {
-	height: 100%;
 	background: rgba(255,255,255,0.9);
 	text-align: center;
 	z-index: 9;
@@ -71,7 +69,6 @@ input {
 }
 
 .appear ul {
-	height: 100%;
 	margin: auto;
 	padding: 0;
 }
@@ -89,7 +86,6 @@ input {
 }
 
 .checkedexample .appear {
-    height: 100%;
     padding: 0;
     overflow: hidden;
     opacity: 0;
@@ -108,8 +104,8 @@ input {
   display:none;
   float: right;
   position: fixed;
-  top: 30px;
-  right: 5px;
+  top: 20px;
+  right: 2px;
   z-index: 10px;
 	cursor: pointer;
 }

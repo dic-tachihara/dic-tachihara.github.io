@@ -57,12 +57,12 @@ body {
 }
 	
 .home-text {
-	margin: 0 auto 95px;
+	margin-top: 95px;
 	word-wrap: break-word;
 }
 	
 .article {
-	margin: 0 auto 75px;
+	margin-top: 75px;
 }
 	
 .article p {
@@ -155,7 +155,7 @@ body {
 @media all and (max-width: 785px) {
 	
 	body {
-		margin:0;
+		margin:45px 10px 45px;
 	}
 	
 	h2{
@@ -163,16 +163,11 @@ body {
 }
 
 strong {
-	font-size: 15.8287x;
+	font-size: 15.8287px;
 }
 
 .body-center {
 	width: 100%;
-	margin: 0 auto;
-}
-
-.body-center-r {
-	width: 90%;
 	margin: 0 auto;
 }
 	
