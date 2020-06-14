@@ -139,15 +139,14 @@ body {
 	
 .sns-link {
 	margin-bottom: 25px;
+	display: block;
+	float: none;
 }
 	
 .site-link {
-	float: none;
 	margin-top: 50px;
 	padding: 0 0 24px 0;
-}
-
-.site-link p {
+	display: block;
 	text-align: left;
 }
 	
@@ -261,4 +260,10 @@ strong {
 	font-size: 13.152px;
 }
 	
+}
+
+@media all and (max-width: 360px) {
+	.search-2 {
+	width: 100%;
+}
 }

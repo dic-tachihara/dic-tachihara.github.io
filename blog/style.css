@@ -182,7 +182,7 @@ input {
 }
 
 .main img {
-	width: auto;
+	width: 100%;
 	height: auto;
 	padding: 70px 0 35px;
 	margin: 0 auto;
@@ -627,18 +627,10 @@ input {
 	float: left;
 }
 
-.sns-link li {
-	float: left;
-}
-
-.sns-link img {
-	padding-left: 15px;
-}
-
 .site-link {
 	font-size: 15.75px;
 	color: #999999;
-	text-align: left;
+	text-align: center;
 	padding:0 75px 24px 0;
 	
 }
@@ -650,4 +642,12 @@ input {
 
 .site-link p {
 	margin: 0;
+}
+
+.sns-link li {
+	float: left;
+}
+
+.sns-link img {
+	padding-left: 15px;
 }
