@@ -77,6 +77,11 @@
 		line-height: 3;
 	}
 	
+	.top-title-sp{
+	font-size: 14.04px;
+	line-height: 5px;
+	}
+	
 	.left{
 		width: 100%;
 	}
@@ -248,6 +253,14 @@
 	
 	.tel-div img {
 	padding: 7px 0 0 5px;
-	left: 14%;
+	left: 20%;
+}
+}
+
+@media all and (max-width: 370px) {
+	
+	.tel-div img {
+	padding: 7px 0 0 5px;
+	left: 15%;
 }
 }
