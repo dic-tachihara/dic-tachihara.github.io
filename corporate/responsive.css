@@ -87,12 +87,13 @@
 	}
 	
 	.left li {
-		width: 96%;
+		width: 100%;
 	}
 	
 	.sintyaku{
 		margin-bottom: 40px;
 		height: 630px;
+		width: 100%;
 
 	}
 	
