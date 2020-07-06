@@ -86,6 +86,10 @@
 		width: 100%;
 	}
 	
+	.left li {
+		width: 96%;
+	}
+	
 	.sintyaku{
 		margin-bottom: 40px;
 		height: 630px;
