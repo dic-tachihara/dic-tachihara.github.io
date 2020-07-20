@@ -1292,7 +1292,6 @@ header p {
   margin: auto;
 }
 
-/*アコーディオン全体*/
 .menu02 {
   width: 95%;
   padding: 10px 10px 20px;
@@ -1300,14 +1299,13 @@ header p {
 }
 
 .menu02 input {
-  display: none; /*チェックボックスを隠す*/
+  display: none;
 }
 
 .menu02 input :hover {
 	text-decoration: underline; 
 }
 
-/*バー部分*/
 .menu02 label {
   cursor :pointer;
   display: block;
@@ -1331,7 +1329,6 @@ header p {
 	text-decoration: underline;
 }
 
-/*開いたときに表示される部分*/
 .menu02 ul {
   margin: 0;
   padding: 0;
@@ -1360,7 +1357,7 @@ header p {
 #menu_bar18:checked ~ #links18 li,
 #menu_bar19:checked ~ #links19 li,
 #menu_bar20:checked ~ #links20 li {
-  height: auto; /*開いたときに表示されるliの高さ*/
+  height: auto;
   opacity: 1;
   background: #fef5e0;
   padding: 10px;
@@ -1368,7 +1365,6 @@ header p {
 	top: -5px;
 }
 
- /*開いたときの下の余白*/
 #menu_bar16:checked ~ #links16 li:last-child,
 #menu_bar17:checked ~ #links17 li:last-child,
 #menu_bar18:checked ~ #links18 li:last-child,
@@ -1377,7 +1373,6 @@ header p {
   margin-bottom: 5px;
 }
 
-/*閉じた状態の矢印描画*/
 .menu02 label:after{
   content:"";
   display:block;
@@ -1395,7 +1390,6 @@ header p {
   margin: auto;
 }
 
-/*開いた状態の矢印描画*/
 .menu02 input[type=checkbox]:checked + label:after{
   content:"";
   display:block;

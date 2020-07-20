@@ -10,7 +10,7 @@ var topButton = document.getElementById( 'js-scroll-fadein' );
           
 //ボタンの表示・非表示
 window.onscroll = function() {
-  ( getScrolled() > 500 ) ? topButton.classList.add( 'is-fadein' ): topButton.classList.remove( 'is-fadein' );
+  ( getScrolled() > 50 ) ? topButton.classList.add( 'is-fadein' ): topButton.classList.remove( 'is-fadein' );
 };
           
 //トップに移動する関数
