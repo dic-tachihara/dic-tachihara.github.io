@@ -72,8 +72,7 @@ header p {
     background-color: #da6b64;
     border-radius: 25px;
 	font-size: 14px;
-    font-weight: 300;
-	margin-right: 10%;
+	margin-right: 7%;
 }
 
 .header-btn-sp{
@@ -100,25 +99,25 @@ header p {
 	color: #fff;
 }
 
-.header-btn-sp a :hover{
+.header-btn-sp :hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
 .header-btn p {
 	margin: 0;
+	font-weight: 300;
 }
 
 .header-title{
 	top:15px;
 	position: absolute;
 	width: 500px;
-	margin-left: 10%;
+	margin-left: 7%;
 }
 
 .header-title p {
 	line-height: 60px;
-	height: 128px;
 }
 
 .header-div {
@@ -127,7 +126,7 @@ header p {
 
 .top {
     text-align: center;
-	background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+	background: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg) center;
     background-size: cover;
 	height: 550px;
 }
@@ -885,7 +884,7 @@ header p {
 	float: left;
 	text-align: center;
 	padding: 20px;
-    width: 200px;
+    width: 20%;
 }
 
 .attendance-left p {
@@ -901,6 +900,8 @@ header p {
 
 .attendance-right {
 	padding-top: 10px;
+	float: right;
+	width: 80%;
 }
 
 .attendance-right p {

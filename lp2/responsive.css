@@ -564,12 +564,20 @@
 }
 	
 	.top-p {
-		padding-top: 100px;
+		padding-top: 80px;
 		height: 500px;
 	}
 	
 	.top {
 		height: 372px;
+	}
+	
+	.top img {
+		margin: 20px;
+	}
+	
+	.top p {
+		margin: 0;
 	}
 	
 	.top-top-p p {
@@ -581,12 +589,12 @@
 }
 	
 	.conversion-top-redp {
-    width: 85%;
+    width: 400px;
 		font-size: 13.5px;
 }
 	
 	.conversion-btn {
-    width: 80%;
+    width: 90%;
     font-size: 20px;
 	padding: 15px 20px;
 }
@@ -629,6 +637,10 @@
 	
 	.learn01 p {
 		font-size: 15px;
+	}
+	
+	.learn01 span {
+		font-size: 12px;
 	}
 	
 	.a-sp {
@@ -916,6 +928,21 @@
 	
 .menu label {
     padding: 10px;
+}
+	
+	.pagetop {
+	bottom: 20px;
+    right: 10px;
+    padding: 15px;
+	bottom: 25px;
+    right: 10px;
+	height: 52px;
+	width:	46.5px;
+	}
+	
+	.pagetop i {
+	line-height: 25px;
+	font-size: 15px;
 }
 	
 }
