@@ -1314,10 +1314,11 @@ header p {
   line-height: 1;
   position: relative;
   margin: 0 0 5px;
-  padding: 20px;
+  padding: 10px 15px 10px;
       background-color: #fef5e0;
   font-size: 15px;
   font-weight: 600;
+	height: 55px;
 }
 
 .menu02 label a {

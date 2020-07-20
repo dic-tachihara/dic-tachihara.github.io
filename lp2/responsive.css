@@ -133,9 +133,7 @@
 		width: 95%;
 	}
 	
-	.merit-p {
-	font-size:12px;
-}
+	c
 	
 .support01 span {
 	font-size: 24px !important;
@@ -664,6 +662,12 @@
 		font-size: 15px;
 		margin: 0;
 	}
+	
+	.merit-p {
+		width: 95%;
+		margin: 0 auto;
+	}
+	
 	.support01 {
 		padding: 10px;
 	}
@@ -716,11 +720,6 @@
 	.about-p01 {
 		width: 250px;
 		margin: 20px auto 10px;
-	}
-	
-	.about-p02 {
-		width: 200px;
-		margin: 0 auto;
 	}
 	
 	.round01,.round02 {
@@ -830,6 +829,10 @@
 		display: none;
 	}
 	
+	.bangkok {
+    padding: 20px 15px 20px 35px;
+}
+	
 	.bangkok-p {
 		width: 100%;
 	}
@@ -891,6 +894,7 @@
 	.form {
 		padding: 0;
 		height: 659px;
+		padding: 20px 15px 20px;
 	}
 	
 	.form input{
