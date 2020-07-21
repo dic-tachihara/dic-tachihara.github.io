@@ -160,6 +160,7 @@
 }
 
 .a-table {
+	width: 95%;
 	margin: 0 auto 0 0;	
 }
 
@@ -340,13 +341,12 @@
 	}
 	
 	.a-table {
-	width: 95%;
 	margin: 0 auto;	
 }
 	
 	.list {
 		width: 80%;
-		margin-top: 30px;
+		margin: 30px 0 0 0;
 	}
 	
 	.list02 {
@@ -376,7 +376,8 @@
 	}
 	
 	.benefits-p {
-	width: 400px;
+	max-width: 400px;
+		width: 70%;
 }
 	
 	.message img {
@@ -607,24 +608,6 @@
 	width: 100%;
 }
 	
-	.cbp01 {
-		width: 400px;
-		margin: 0 auto;
-		margin-bottom: 30px;
-	}
-	
-	.cbp02 {
-		width: 370px;
-		margin: 0 auto;
-		margin-bottom: 30px;
-	}
-	
-	.cbp03 {
-		width: 300px;
-		margin: 0 auto;
-		margin-bottom: 30px;
-	}
-	
 	.isara p {
 		font-size: 13px;
 	}
@@ -642,7 +625,7 @@
 	}
 	
 	.a-sp {
-		width: 360px;
+		width: 80%;
 		margin: 0 auto;
 	}
 	
@@ -728,7 +711,6 @@
 	}
 	
 	.about-p01 {
-		width: 250px;
 		margin: 20px auto 10px;
 	}
 	
@@ -749,7 +731,6 @@
 	}
 	
 	.a img {
-		width: 139.33px;
 		margin-right: 20px;
 	}
 	
@@ -861,8 +842,8 @@
 	}
 	
 	.members-sp img{
-	width: 120px;
-	height:120px; 
+	max-width: 120px;
+	max-height:120px; 
 }
 	
 	.members-sp {

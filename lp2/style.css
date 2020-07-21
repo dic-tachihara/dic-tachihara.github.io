@@ -155,7 +155,8 @@ header p {
 }
 
 .top-p img {
-    width: 317px;
+    max-width: 317px;
+    width: 90%;
     margin-bottom: 20px;
 }
 
@@ -746,12 +747,12 @@ header p {
 }
 
 .a-table {
-	width: 780px;
+	width: 60%;
 	margin: 0 auto;	
 }
 
 .a img {
-	width: 244.98px;
+	width: 80%;
 	border: solid #ebb94d;
 	margin: 20px 30px 20px 0;
 }
