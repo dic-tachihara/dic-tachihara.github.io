@@ -81,7 +81,7 @@ header p {
     position: absolute;
     right: 0px;
     top: 0;
-    padding: 9px 11px;
+    padding: 9px 0 9px;
     background-color: #da6b64;
 	height: 62px;
 	width: 76px;
@@ -89,7 +89,7 @@ header p {
 
 .header-btn-sp img {
 	width: 20px;
-	margin: 0 17px 0;
+	margin: 0 28px 0;
 }
 
 .header-btn-sp a {
@@ -102,6 +102,10 @@ header p {
 .header-btn-sp :hover {
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+.scroll__button {
+	padding: 40px 11px 9px;
 }
 
 .header-btn p {
@@ -201,7 +205,7 @@ header p {
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px;
-	width: 521px;
+	display: table;
 	font-weight: 600;
 	margin: 0 auto;
 }
