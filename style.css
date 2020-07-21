@@ -1,0 +1,1487 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+	letter-spacing: 1.5px;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p{
+	margin: 0 0 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2, h3 {
+    line-height: 40px;
+}
+
+h2{
+	font-size: 28px;
+    font-weight: 600;
+	margin: 20px 0 20px;
+}
+
+.clear {
+	float: none;
+}
+
+.brsp {
+	display: none;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    height: 75px;
+	position: fixed;
+	z-index: 10;
+	background-color: #fff;
+	top:0;
+}
+
+header img {
+	width: 128px;
+	float: left;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+header p {
+	font-weight: 600;
+    margin-bottom: 0;
+}
+
+.header-btn {
+	cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    padding: 11px 0;
+    background-color: #da6b64;
+    border-radius: 25px;
+	font-size: 14px;
+	margin-right: 7%;
+}
+
+.header-btn a {
+	color: #fff;
+}
+
+.header-btn :hover {
+	background-color: #d84940;
+	padding: 11px 40px;
+}
+
+.header-btn-sp{
+	display: none;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 9px 0 9px;
+    background-color: #da6b64;
+	height: 62px;
+	width: 76px;
+}
+
+.header-btn-sp img {
+	width: 20px;
+	margin: 0 28px 0;
+}
+
+.header-btn-sp a {
+	font-weight: 300px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-btn-sp :hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.header-btn p {
+	margin: 0;
+	font-weight: 300;
+}
+
+.header-title{
+	top:15px;
+	position: absolute;
+	width: 500px;
+	margin-left: 7%;
+}
+
+.header-title p {
+	line-height: 60px;
+}
+
+.header-div {
+	width: 1170px !important;
+}
+
+.top {
+    text-align: center;
+	background: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg) center;
+    background-size: cover;
+	height: 550px;
+}
+
+.top-top-p p {
+	font-size: 28px;
+    font-weight: 600;
+}
+
+.top-bottom-p p {
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.top-p img {
+    max-width: 317px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.top-p {
+	display: block;
+	margin: 0 auto 0;
+	padding-top: 150px;
+}
+
+.btn {
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.btn i {
+	margin-right: 3px;
+}
+
+.btn-t {
+    background-color: #1b95e0;
+	padding: 0 8px 0 6px;
+}
+
+.btn-i {
+    background-color: #1877f2;
+}
+
+.btn-s {
+    background-color: #1877f2;
+}
+
+.conversion {
+	background-color: #ebb94d;
+    padding: 30px 0;
+    text-align: center;
+	color: #fff;
+}
+
+.conversion-top-p {
+	margin: 0 0 10px;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.conversion-top-redp {
+	padding: 2px 4px;
+    font-size: 18px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+	display: table;
+	font-weight: 600;
+	margin: 0 auto;
+}
+
+.conversion-btn {
+	width: 1028px;
+	cursor: pointer;
+    padding: 30px 0;
+    background-color: #da6b64;
+    border-radius: 50px;
+    color: #fff;
+    margin: 45px auto;
+	font-size: 28px;
+    font-weight: 600;
+}
+
+.conversion-btn a{
+	color: #fff;
+}
+
+.conversion-btn:hover {
+	background-color: #d84940;
+}
+
+.conversion-bottom-p {
+	margin: 0 0 10px;
+	font-size: 21px;
+    font-weight: 600;
+}
+
+.text01 {
+	text-align: center;
+	background-image:url("img/introbottom.jpg");
+	background-image: url(img/introbottom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 587px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.text01 p {
+	margin-bottom: 24px;
+    font-weight: 300;
+	font-size: 20px;
+}
+
+.text01 span{
+	font-weight: bold;
+    background: linear-gradient(transparent 70%, #ebb94d 70%);
+	font-size: 20px;
+}
+
+.about {
+	padding: 0 0 40px 0;
+    background-color: #fef5e0;
+    text-align: center;
+}
+
+.about p {
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.round01 {
+	color: #fff;
+    background-color: #ebb94d;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+	position: relative;
+    top: -40px;
+}
+
+.round02 {
+	color: #ebb94d;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+	position: relative;
+}
+
+.round-sp {
+	margin:15px 30px 15px 0;
+}
+
+.title  {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    padding: 15px 0px;
+    box-sizing: border-box;
+	margin: 20px auto 20px;
+	text-align: center;
+}
+
+.title::after {
+	bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+	position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+	position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.title02 {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    padding: 15px 0px;
+    box-sizing: border-box;
+	margin: 20px auto 20px;
+	text-align: center;
+}
+
+.title02::after{
+	bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+	position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.title02::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+	position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.skill img {
+	display: block;
+	margin: 0 auto;
+}
+
+.skill p {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+    font-size: 12px !important;
+    font-weight: 300;
+}
+
+.skill table {
+	margin: 0 auto;
+}
+
+.skill01 td {
+	padding: 10px 10px 0 10px;
+	height: 70px;
+}
+
+.skill02 td {
+	padding: 0 10px 10px 10px;
+}
+
+.skill-div {
+	width: 1170px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.isara {
+	background-image:url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg);
+	padding: 40px 0 40px;
+	text-align: center;
+	background-size: cover;
+}
+
+.isara h2 {
+	color: #fff;
+}
+
+.isara p {
+	color: #fff;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.isara span{
+	color: #ebb94d;
+	font-weight: 600;
+    font-size: 20px;
+}
+
+.steps{
+	margin-top: 30px;
+}
+
+.step{
+    padding: 30px 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+	display: inline-block;
+	width: 374.39px;
+	height: 177px;
+}
+
+.step p {
+	color: #000;
+    font-weight: 600;
+	text-align: center;
+	font-size: 16px;
+}
+
+.step span{
+	background-color: #ebb94d;
+    border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+    font-weight: 600;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.step-p {
+	margin-bottom: 15px;
+	color: #000;
+    font-weight: 600;
+	font-size: 14px !important;
+}
+
+.step02 {
+	margin: 0 0.5%;
+}
+
+.skillup{
+	padding: 40px 0;
+    text-align: center;
+    background-color: #016ea9;
+    color: #fff;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.skillup span{
+    color: #ebb94d;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.learn01{
+	text-align: center;
+	padding: 40px 0;
+}
+
+.learn01 img {
+	width: 180px;
+	margin: 30px 15px 30px;
+}
+
+.learn01 p {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.learn01 span {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.learn01-img span {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.learn01 h2 {
+	margin:28px 0 35px;
+}
+
+.merit {
+	padding: 40px 0;
+    background-color: #fef5e0;
+}
+
+.merit td p {
+	margin: 0 15px 0;
+	text-align: left;
+}
+
+.merit img {
+	height: 180px;
+	width: 390px;
+	padding: 0 15px 0;
+}
+
+.merit-img02 {
+}
+
+.merit span {
+	font-weight: 700;
+	color: #ebb94d;
+	text-align: left;
+	font-size:20px;
+	margin-left: 15px;
+}
+
+.merit-p {
+	text-align: center;
+}
+
+.merit-table {
+	margin: 0 auto;
+	display: block;
+	width: 1200px;
+}
+
+.merit-table-p {
+	display: inline-block;
+	width: 390px;
+}
+
+.merit-table-p img {
+	display: inline-block;
+}
+
+.merit-table-p span {
+	display: block;
+}
+
+.merit-table-p p {
+	margin-left: 15px;
+}
+
+.merit-table-p01 {
+	position: relative;
+	top: -45px;
+}
+
+.merit-table-p03 {
+	position: relative;
+	top: -65px;
+}
+
+.support01 {
+	width: 1170px;
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 40px auto;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.support01 span {
+	font-size: 28px;
+    font-weight: 600;
+}
+
+.support01-sp {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.support01-mp {
+	font-size: 20px !important;
+    font-weight: 600;
+	margin-top: 10px;
+}
+
+.member-div {
+	background-image:url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg);
+	background-size: cover;
+	color: #fff;
+	padding: 40px 0 40px;
+}
+
+.member-div img {
+	width: 198px;
+	position: relative;
+    bottom: -35px;
+    border-radius: 50%;
+}
+
+.member-div h2 {
+	margin: 20px 0 30px;
+	text-align: center;
+}
+
+.member-div p {
+	font-size: 16px;
+    font-weight: 600;
+	text-align: center;
+}
+
+.members {
+	width: 50%;
+	display: inline-block;
+	padding: 0 15px 0;
+}
+
+.members p,span {
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+}
+
+.m-l {
+	float: left;
+}
+
+.m-l img{
+	margin: 0 0 0 auto;
+	display: block;
+	margin-right: 90px;
+}
+
+.m-r img{
+	margin: 0 auto 0 0;
+	display: block;
+	margin-left: 90px;
+}
+
+.member p {
+	text-align: center;
+}
+
+.member {
+	padding: 40px;
+    border: 3px solid #fff;
+	width: 375px;
+}
+
+.m-l02 {
+	margin: 0 0 0 auto;
+	display: block;
+}
+
+.m-r02 {
+	margin: 0 auto 0 0;
+	display: block;
+}
+
+.members-div-sp {
+	display: none;
+}
+
+.member-sp p {
+	text-align: center;
+}
+
+.members-sp {
+	width: 90%;
+	display: block;
+	padding: 0 15px 0;
+	margin: 0 auto;
+}
+
+.members-sp img{
+	margin: 0 auto;
+	display: block;
+}
+
+.members-sp p,span {
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+}
+
+.member-sp {
+	padding: 40px;
+    border: 3px solid #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.q {
+	position: relative;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #ebb94d;
+    color: #fff;
+}
+
+.q::after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.a {
+	padding: 40px 0 40px;
+}
+
+.a-table {
+	width: 60%;
+	margin: 0 auto;	
+}
+
+.a img {
+	width: 80%;
+	border: solid #ebb94d;
+	margin: 20px 30px 20px 0;
+}
+
+.a span {
+	text-decoration: underline;
+	font-style: italic;
+	color: #777;
+	font-size: 15.3px;
+}
+
+.a p{
+	font-size: 18px;
+	color: #777;
+	margin-top:20px;
+}
+
+.a {
+	display: block;
+}
+
+.a-p {
+	text-align: center;
+	
+}
+
+.a-p p {
+	font-size: 28px;
+    font-weight: 600;
+	color:#333 !important;
+	margin-top: 0;
+}
+
+.a-sp {
+	font-size: 14px !important;
+    font-weight: 300 !important;
+	color:#333 !important;
+}
+
+.a-mp {
+	font-size: 16px !important;
+    font-weight: 600;
+	color:#333 !important;
+	margin-bottom: 30px;
+}
+
+.learn02 {
+	text-align: center;
+	background-image:url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg);
+	background-size: cover;
+	padding: 40px 0 40px;
+}
+
+.learn02 li{
+	list-style: none;
+	padding: 10px;
+	border-bottom: 1px dotted #e5e5e5;
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.learn02 h2 {
+	margin: 20px 0 10px;
+	color: #fff;
+}
+
+.learn02 p {
+	font-size: 16px;
+    font-weight: 600;
+	color: #fff;
+}
+
+.list {
+	background-color: #fff;
+    border: 2px solid #016ea9;
+    padding: 0;
+	margin: 15px;
+    border-radius: 5px;
+	width: 371px;
+	display: inline-block;
+}
+
+.list01 {
+	margin-bottom: 40px;
+}
+
+.list02 {
+	position: relative;
+	top:-185px;
+}
+
+.li-title {
+	background-color: #016ea9;
+    padding: 15px;
+	color: #fff;
+	height: 62px;
+	font-size: 20px;
+    font-weight: 600;
+	margin-bottom: 15px;
+	line-height: 42px;
+}
+
+.support02 {
+	font-size: 20px;
+    font-weight: 600;
+	color: #fff;
+	background-color: #016ea9;
+    padding: 40px 0;
+    text-align: center;	
+	margin-bottom: 60px;
+}
+
+.attendances {
+	width: 100%;
+}
+
+.attendance-img {
+	text-align: center;
+}
+
+.attendance-img h2 {
+	margin-bottom: 10px;
+}
+
+.attendance-img img {
+	margin: 40px 0 40px;
+}
+
+.border-img {
+	width: 762px;
+	height: 64px;
+	display: block;
+	margin: 0 auto;
+}
+
+.attendance {
+	width: 1170px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px 35px;
+    background-color: #fef5e0;
+}
+
+.attendance p {
+	margin: 20px 0;
+}
+
+.attendance-left {
+	float: left;
+	text-align: center;
+	padding: 20px;
+    width: 20%;
+}
+
+.attendance-left p {
+	font-size: 18px;
+    margin-bottom: 0;
+	font-weight: 600;
+}
+
+.attendance-right span {
+	font-size: 14px;
+    font-weight: 300;
+}
+
+.attendance-right {
+	padding-top: 10px;
+	float: right;
+	width: 80%;
+}
+
+.attendance-right p {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.attendance-sp {
+	display: none;
+}
+
+.attendance-sp img {
+	width: 35px;
+	height: 35px;
+	margin-right: 15px;
+}
+
+.bangkok {
+	background-image:url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg);
+	background-size: cover;
+    padding: 80px;
+    color: #fff;
+	margin-top: 40px;
+}
+
+.bangkok-p {
+	width: 1170px;
+    margin: 0 auto;
+	font-size: 14px;
+    font-weight: 300;
+}
+
+.bangkok-p span {
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.bangkok-li {
+	margin: 20px 0 20px;
+}
+
+.bangkok-li p{
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.benefits-div {
+    background-repeat: no-repeat;
+    padding: 40px 0 40px;
+    text-align: center;
+    background-color: #f7c23c;
+	margin: 0 auto;
+	width: 100%;
+	height: 720px;
+}
+
+.benefits-div span {
+	color: #fff;
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.benefits-div p {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.benefits-div h2 {
+	margin: 20px 0 40px;
+}
+
+.benefitses {
+	margin-top:20px;
+}
+
+.benefits {
+	width: 250px;
+	height: 250px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.benefits p{
+	font-size: 14px !important;
+}
+
+.benefits span {
+	color: #ebb94d !important;
+	font-size: 24px;
+    font-weight: 300;
+	position: relative;
+	top:50px;
+}
+
+.benefits p {
+	font-weight: 600;
+	position: relative;
+	top:60px;
+	width: 220px;
+	margin-left: 15px;
+}
+
+.benefits02 {
+	margin: 0 100px 0;
+}
+
+.benefits03 {
+	position: relative;
+	top: -20px;
+}
+
+.benefitses-div {
+    padding: 40px;
+    border: 2px solid #fff;
+	width: 1170px;
+	margin: 40px auto;
+}
+
+.benefitses-div-sp {
+	display: none;
+	color: #fff;
+}
+
+.benefitses-div-sp p{
+	text-align: left;
+}
+
+.benefits-p {
+    font-weight: 600;
+	position: relative;
+	top:65px;
+	background-color: #f7c23c;
+	width: 856.36px;
+	margin: 0 auto;
+	font-size: 28px !important ;
+}
+
+.text02 {
+	background-image:url(https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg);
+	color: #fff;
+	text-align: center;
+	padding: 60px 0 40px;
+	background-size: cover;
+}
+
+.text02 span {
+	font-size: 28px;
+    font-weight: 600;
+}
+
+.text02 p {
+	font-size: 20px;
+    font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.text02 h2 {
+	margin: 0;
+}
+
+.text02-top-p {
+	margin-top: 20px;
+}
+
+.message {
+	width: 890px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0 70px;
+}
+
+.message h2{
+	margin: 20px 0 35px;
+}
+
+.message span {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.message img {
+	width: 192.5px;
+	margin: 0 30px 120px;
+	float: left;
+	margin-top:40px;
+}
+
+.message-text {
+	text-align: left;
+	padding-right: 15px;
+	font-size: 14px;
+	margin-top:40px;
+}
+
+.message-text p {
+	margin-bottom: 10px;
+}
+
+.form {
+	background-color: #ebb94d;
+    padding: 40px 20%;
+    text-align: center;
+   
+}
+
+.form h2{
+	margin: 20px 0 20px;
+}
+
+.form p {
+	font-size: 16px;
+    font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.form input{
+	width: 100%;
+	height: 55px;
+	border-radius: 5px;	
+	padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.form textarea{
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;	
+	padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+	color: #595959;
+}
+
+.form-btn {
+	cursor: pointer;
+    color: #fff;
+    padding: 10px 80px;
+    background-color: #da6b64;
+    border-radius: 50px;
+	font-size: 23px;
+    font-weight: 600;
+	height: 55px;
+	line-height: 35px;
+}
+
+.form-btn  p{
+	font-size: 23px !important;
+	margin: 0;
+}
+
+.question h2 {
+	text-align: center;
+}
+
+/*アコーディオン全体*/
+.menu {
+  width: 1170px;
+  padding: 10px 10px 20px;
+	margin: 0 auto;
+}
+
+.menu input {
+  display: none; /*チェックボックスを隠す*/
+}
+
+.menu input :hover {
+	text-decoration: underline; 
+}
+
+/*バー部分*/
+.menu label {
+  cursor :pointer;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  line-height: 1;
+  position: relative;
+  margin: 0 0 5px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5 !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu label :hover {
+	text-decoration: underline;
+}
+
+/*開いたときに表示される部分*/
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu li {
+  height: 0;
+  overflow-y: hidden;
+  transition: padding-bottom 0.5s, padding-top 0.5s; /*閉じるときのアニメーション*/
+  -webkit-transition: padding-bottom 0.5s, padding-top 0.5s
+  -moz-transition: padding-bottom 0.5s, padding-top 0.5s;
+  -ms-transition: padding-bottom 0.5s, padding-top 0.5s;
+  -o-transition: padding-bottom 0.5s, padding-top 0.5s;
+}
+
+.menu i {
+	color: #016ea9;
+}
+
+#menu_bar01:checked ~ #links01 li,
+#menu_bar02:checked ~ #links02 li,
+#menu_bar03:checked ~ #links03 li,
+#menu_bar04:checked ~ #links04 li,
+#menu_bar05:checked ~ #links05 li,
+#menu_bar06:checked ~ #links06 li,
+#menu_bar07:checked ~ #links07 li,
+#menu_bar08:checked ~ #links08 li,
+#menu_bar09:checked ~ #links09 li,
+#menu_bar10:checked ~ #links10 li,
+#menu_bar11:checked ~ #links11 li,
+#menu_bar12:checked ~ #links12 li,
+#menu_bar13:checked ~ #links13 li,
+#menu_bar14:checked ~ #links14 li,
+#menu_bar15:checked ~ #links15 li {
+  height: auto; /*開いたときに表示されるliの高さ*/
+  opacity: 1;
+  background: #fff;
+  padding: 10px;
+}
+
+ /*開いたときの下の余白*/
+#menu_bar01:checked ~ #links01 li:last-child,
+#menu_bar02:checked ~ #links02 li:last-child,
+#menu_bar03:checked ~ #links03 li:last-child,
+#menu_bar04:checked ~ #links04 li:last-child,
+#menu_bar05:checked ~ #links05 li:last-child,
+#menu_bar06:checked ~ #links06 li:last-child,
+#menu_bar07:checked ~ #links07 li:last-child,
+#menu_bar08:checked ~ #links08 li:last-child,
+#menu_bar09:checked ~ #links09 li:last-child,
+#menu_bar10:checked ~ #links10 li:last-child,
+#menu_bar11:checked ~ #links11 li:last-child,
+#menu_bar12:checked ~ #links12 li:last-child,
+#menu_bar13:checked ~ #links13 li:last-child,
+#menu_bar14:checked ~ #links14 li:last-child,
+#menu_bar15:checked ~ #links15 li:last-child {
+  margin-bottom: 20px;
+}
+
+/*閉じた状態の矢印描画*/
+.menu label:after{
+  content:"";
+  display:block;
+  width:8px;
+  height:8px;
+  border-top: #e5e5e5 5px solid;
+  border-right: #e5e5e5 5px solid;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position:absolute;
+  right: 2%;
+  top: 0;
+  bottom: 15%;
+  margin: auto;
+}
+
+/*開いた状態の矢印描画*/
+.menu input[type=checkbox]:checked + label:after{
+  content:"";
+  display:block;
+  width:8px;
+  height:8px;
+  border-top: #e5e5e5 5px solid;
+  border-right: #e5e5e5 5px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position:absolute;
+  right: 2%;
+  top: 7%;
+  bottom: 0;
+  margin: auto;
+}
+
+.menu02 {
+  width: 95%;
+  padding: 10px 10px 20px;
+  margin: 0 auto;
+}
+
+.menu02 input {
+  display: none;
+}
+
+.menu02 input :hover {
+	text-decoration: underline; 
+}
+
+.menu02 label {
+  cursor :pointer;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  line-height: 1;
+  position: relative;
+  margin: 0 0 5px;
+  padding: 10px 15px 10px;
+      background-color: #fef5e0;
+  font-size: 15px;
+  font-weight: 600;
+	height: 55px;
+}
+
+.menu02 label a {
+	position: relative;
+	top:-10px;
+}
+
+.menu02 label :hover {
+	text-decoration: underline;
+}
+
+.menu02 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu02 li {
+  height: 0;
+  overflow-y: hidden;
+  transition: padding-bottom 0.5s, padding-top 0.5s; /*閉じるときのアニメーション*/
+  -webkit-transition: padding-bottom 0.5s, padding-top 0.5s
+  -moz-transition: padding-bottom 0.5s, padding-top 0.5s;
+  -ms-transition: padding-bottom 0.5s, padding-top 0.5s;
+  -o-transition: padding-bottom 0.5s, padding-top 0.5s;
+}
+
+.menu02 i {
+	color: #016ea9;
+}
+
+#menu_bar16:checked ~ #links16 li,
+#menu_bar17:checked ~ #links17 li,
+#menu_bar18:checked ~ #links18 li,
+#menu_bar19:checked ~ #links19 li,
+#menu_bar20:checked ~ #links20 li {
+  height: auto;
+  opacity: 1;
+  background: #fef5e0;
+  padding: 10px;
+  position: relative;
+	top: -5px;
+}
+
+#menu_bar16:checked ~ #links16 li:last-child,
+#menu_bar17:checked ~ #links17 li:last-child,
+#menu_bar18:checked ~ #links18 li:last-child,
+#menu_bar19:checked ~ #links19 li:last-child,
+#menu_bar20:checked ~ #links20 li:last-child{
+  margin-bottom: 5px;
+}
+
+.menu02 label:after{
+  content:"";
+  display:block;
+  width:7px;
+  height:7px;
+  border-top: #000 4px solid;
+  border-right: #000 4px solid;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position:absolute;
+  right: 2%;
+  top: 0;
+  bottom: 15%;
+  margin: auto;
+}
+
+.menu02 input[type=checkbox]:checked + label:after{
+  content:"";
+  display:block;
+  width:8px;
+  height:8px;
+  border-top: #000 5px solid;
+  border-right: #000 5px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position:absolute;
+  right: 2%;
+  top: 7%;
+  bottom: 0;
+  margin: auto;
+}
+
+footer {
+	width: 100%;
+	position: relative;
+    padding: 40px 15px 20px 15px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.copyright {
+	margin-bottom: 7px;
+}
+
+.sns {
+	margin-bottom: 30px;
+}
+
+.pagetop {
+    cursor: pointer;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+	z-index: 10;
+	text-align: center;
+    background-color: #ececec;
+    padding: 20px;
+	width: 71.5px;
+	height: 73px;
+	transition: opacity 1s;
+  	visibility: hidden;
+ 	 opacity: 0;
+}
+
+.is-fadein {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.pagetop i {
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+	color: #333;
+}
