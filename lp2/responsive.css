@@ -926,3 +926,9 @@
 	
 }
 
+@media all and (max-width: 347px) {
+	.top img {
+		margin: 0;
+	}
+}
+
