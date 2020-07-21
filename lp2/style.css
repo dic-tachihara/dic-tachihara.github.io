@@ -40,6 +40,7 @@ h2{
 .clear {
 	float: none;
 }
+
 .brsp {
 	display: none;
 }
@@ -234,7 +235,7 @@ header p {
 	color: #fff;
 }
 
-.conversion-btn :hover {
+.conversion-btn:hover {
 	background-color: #d84940;
 }
 
