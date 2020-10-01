@@ -4,7 +4,7 @@
 @media all and (max-width: 520px) {
 	
 .inner {
-  width: 100%; /* 好きな幅 */
+  width: 85%; /* 好きな幅 */
   max-width: 100%;
   margin: 0 auto;
   padding: 24px;
