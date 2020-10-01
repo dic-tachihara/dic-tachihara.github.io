@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 10px;
+	font-family: 
+}
+
+body,p,h1,h2,h3 {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.tl {text-align: left;}
+.tc {text-align: center;}
+.tr {text-align: right;}
+.tb {font-weight: bold;}
+.tn {font-weight: normal;}
+.fl {float: left;}
+.fr {float: right;}
+
+nav li {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+}
+
+.inner {
+  width: 520px; /* 好きな幅 */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff59d;
+}
+
+footer {
+	width: 100%;
+}
+
+.main-footer {
+	background-color: #eee;
+}
+
+.copyright {
+	padding: 10px 0;
+}

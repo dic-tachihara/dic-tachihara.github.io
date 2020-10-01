@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media all and (max-width: 520px) {
+	
+.inner {
+  width: 100%; /* 好きな幅 */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff59d;
+}
+	
+}
