@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 10px;
 	font-family: 
@@ -8,6 +12,10 @@ html {
 
 body,p,h1,h2,h3 {
 	margin: 0;
+}
+
+body {
+	background-color: #eee;
 }
 
 img {
@@ -26,29 +34,48 @@ img {
 nav li {
 	list-style: none;
 	float: left;
-	padding:0 20px;
+	padding:0 10px;
 }
 
 header {
 	width: 100%;
 	clear: both;
     overflow: hidden;
+	background-color: #aaa;
+	padding: 30px 10px;
 }
 
-.inner {
-  width: 520px; /* 好きな幅 */
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 24px;
-  background: #fff59d;
+main {
+	padding: 0 10px;
+}
+
+.element01 {padding: }
+.element02 {padding: }
+.element03 {padding: }
+.element04 {padding: }
+.element05 {padding: }
+
+.center {
+    display:table;
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    background:#fff;
+	padding: 0 10px;
+}
+.center p {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle; 
 }
 
 footer {
 	width: 100%;
+	background-color: #aaa;
+	padding: 0 10px;
 }
 
 .main-footer {
-	background-color: #eee;
 }
 
 .copyright {
